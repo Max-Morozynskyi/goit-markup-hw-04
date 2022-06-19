@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Студия</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="header">
+      <!-- LOGO of a site -->
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="link logo" href="./index.html"
+            >Web<span class="head-studio">Studio</span></a
+          >
+
+          <ul class="nopoint main-nav">
+            <li class="main-nav-item">
+              <a
+                class="link nav-link main-nav-link link-active"
+                href="./index.html"
+                >Студия</a
+              >
+            </li>
+            <li class="main-nav-item">
+              <a class="link nav-link main-nav-link" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="main-nav-item">
+              <a class="link nav-link main-nav-link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- contacts at header -->
+
+        <ul class="nopoint contact-nav">
+          <li class="contact-nav-item">
+            <a class="link nav-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contact-nav-item">
+            <a class="link nav-link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!-- The hero content -->
+
+      <section class="hero section">
+        <div class="container">
+          <h1 class="title hero-title">
+            Эффективные решения<br />для вашего бизнеса
+          </h1>
+          <button class="btn-active button hero-btn" type="button">
+            Заказать услугу
+          </button>
+        </div>
+      </section>
+
+      <!-- Qualities of a company -->
+
+      <section class="qualities section">
+        <div class="container">
+          <h2 class="visually-hidden">Качества компании</h2>
+          <ul class="nopoint card-set">
+            <li class="card-set-item">
+              <h3 class="title title-qualities">Внимание к деталям</h3>
+              <p class="text-qualities">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+
+            <li class="card-set-item">
+              <h3 class="title title-qualities">Пунктуальность</h3>
+              <p class="text-qualities">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+
+            <li class="card-set-item">
+              <h3 class="title title-qualities">Планирование</h3>
+              <p class="text-qualities">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+
+            <li class="card-set-item">
+              <h3 class="title title-qualities">Современные технологии</h3>
+              <p class="text-qualities">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- photos of a company -->
+
+      <section class="photos section">
+        <div class="container">
+          <h2 class="title photos-title">Чем мы занимаемся</h2>
+          <ul class="nopoint card-set">
+            <li class="card-set-item">
+              <img
+                src="./images/box1.jpg"
+                alt="Man's hands are working"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="card-set-item">
+              <img
+                src="./images/box2.jpg"
+                alt="Hands, laptop and phone"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="card-set-item">
+              <img
+                src="./images/box3.jpg"
+                alt="Choosing a color"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- photos of workers -->
+
+      <section class="workers section">
+        <div class="container">
+          <h2 class="title workers-title">Наша команда</h2>
+          <ul class="nopoint card-set">
+            <li class="card card-set-item">
+              <img
+                src="./images/img1.jpg"
+                alt="I. Demyanenko"
+                width="270"
+                height="260"
+              />
+              <div class="card-name">
+                <h3 class="title name">Игорь Демьяненко</h3>
+                <p lang="en">Product Designer</p>
+              </div>
+            </li>
+            <li class="card card-set-item">
+              <img
+                src="./images/img2.jpg"
+                alt="O. Repina"
+                width="270"
+                height="260"
+              />
+              <div class="card-name">
+                <h3 class="title name">Ольга Репина</h3>
+                <p lang="en">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="card card-set-item">
+              <img
+                src="./images/img3.jpg"
+                alt="N. Tarasov"
+                width="270"
+                height="260"
+              />
+              <div class="card-name">
+                <h3 class="title name">Николай Тарасов</h3>
+                <p lang="en">Marketing</p>
+              </div>
+            </li>
+            <li class="card card-set-item">
+              <img
+                src="./images/img4.jpg"
+                alt="M. Yermakov"
+                width="270"
+                height="260"
+              />
+              <div class="card-name">
+                <h3 class="title name">Михаил Ермаков</h3>
+                <p lang="en">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <a class="link logo" href="./index.html"
+          >Web<span class="bottom-studio">Studio</span></a
+        >
+
+        <address class="contact-info">
+          <ul class="nopoint">
+            <li class="footer-item">
+              <a
+                class="link contact-address"
+                href="https://goo.gl/maps/6H8zDvz9oKY9i1Rz8"
+                target="_blank"
+                rel="noopener nofollow"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="footer-item">
+              <a class="link contact-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="footer-item">
+              <a class="link contact-link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>
