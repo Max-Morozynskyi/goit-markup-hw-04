@@ -9,6 +9,7 @@
   /* bg clrs */
   --bg-clr-main: #2f303a;
   --bg-clr-secondary: #f5f4fa;
+  --bg-hero: #c4c4c4;
   /* others */
   --hover-btn: #188ce8;
   --frame-clr: #ececec;
@@ -103,6 +104,12 @@ img {
 
   color: var(--main-clr);
 }
+.icon {
+  fill: inherit;
+}
+.icon:hover {
+  fill: inherit;
+}
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -169,6 +176,9 @@ img {
 .header {
   border-bottom: 1px solid var(--frame-clr);
 }
+.icon-contact {
+  margin-right: 10px;
+}
 
 /* hero section */
 .hero {
@@ -176,10 +186,18 @@ img {
 
   text-align: center;
 
-  background-color: var(--bg-clr-main);
+  background-color: var(--bg-hero);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bg-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1600px 100%;
 }
 .hero-title {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 
   font-weight: 900;
   font-size: 44px;
@@ -325,4 +343,18 @@ img {
   padding: 6px 22px;
 
   line-height: 1.6;
+}
+.filter-btn > .button:hover,
+.filter-btn > .button:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.card-set-item:hover,
+.card-set-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.card-set-item > .portfolio-link:hover,
+.card-set-item > .portfolio-link:focus {
+  color: var(--text-color);
 }
