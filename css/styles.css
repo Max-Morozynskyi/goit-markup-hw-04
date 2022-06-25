@@ -140,7 +140,6 @@ img {
 }
 .nav-link {
   display: flex;
-  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: var(--box-height);
@@ -301,42 +300,39 @@ img {
   margin-top: 16px;
 }
 .social-item {
-  width: 44px;
-  height: 44px;
-  padding-top: 12px;
-
   border-radius: 50%;
-
   color: var(--icon-clr);
 }
 .social-link {
-  padding: 12px;
-}
-.social-item:hover,
-.social-item:focus {
-  background-color: var(--main-clr);
-  color: var(--white-clr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+
+  fill: currentColor;
 }
 .social-item .social-link:hover,
 .social-item .social-link:focus {
-  color: inherit;
+  background-color: var(--main-clr);
+  color: var(--white-clr);
 }
-.social-item .icon {
-  fill: currentColor;
-}
-
 /* Regular customers */
 .customers-list {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.customers-item:not(:last-child) {
-  margin-right: 30px;
+.card-set-item.customers-item {
+  --items: 6;
 }
 .link-clients {
-  display: block;
-  padding: 14px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 92px;
 
   border: 1px solid var(--icon-clr);
   border-radius: 4px;
@@ -365,7 +361,7 @@ img {
   color: var(--white-clr);
 }
 .contact-info {
-  margin-right: 70px;
+  margin-right: 90px;
   font-style: inherit;
   font-size: 14px;
   line-height: 1.71;
