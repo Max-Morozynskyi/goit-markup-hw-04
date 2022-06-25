@@ -59,12 +59,18 @@
         <ul class="nopoint contact-nav">
           <li class="contact-nav-item">
             <a class="link nav-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+              ><svg class="icon icon-contact" width="16" height="12">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>
+              <span>info@devstudio.com</span></a
             >
           </li>
           <li class="contact-nav-item">
             <a class="link nav-link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
+              ><svg class="icon icon-contact" width="10" height="16">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+              <span>+38 096 111 11 11</span></a
             >
           </li>
         </ul>
@@ -235,12 +241,11 @@
     <!-- footer section -->
 
     <footer class="footer">
-      <div class="container">
-        <a class="link logo" href="./index.html"
-          >Web<span class="bottom-studio">Studio</span></a
-        >
-
+      <div class="container footer-box">
         <address class="contact-info">
+          <a class="link logo" href="./index.html"
+            >Web<span class="bottom-studio">Studio</span></a
+          >
           <ul class="nopoint">
             <li class="footer-item">
               <a
@@ -263,6 +268,64 @@
             </li>
           </ul>
         </address>
+
+        <div class="join">
+          <strong class="title title-join">присоединяйтесь</strong>
+          <ul class="nopoint social-list">
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/"
+                class="social-link link"
+                rel="noopener noreferrer"
+                target="_blank"
+                aria-label="instagram"
+              >
+                <svg class="icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://twitter.com/?lang=ru"
+                class="social-link link"
+                rel="noopener noreferrer"
+                target="_blank"
+                aria-label="twitter"
+              >
+                <svg class="icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/groups/themeowuniverse"
+                class="social-link link"
+                rel="noopener noreferrer"
+                target="_blank"
+                aria-label="facebook"
+              >
+                <svg class="icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://ru.linkedin.com/"
+                class="social-link link"
+                rel="noopener noreferrer"
+                target="_blank"
+                aria-label="linkedin"
+              >
+                <svg class="icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
