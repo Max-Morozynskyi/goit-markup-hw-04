@@ -57,6 +57,17 @@ img {
 .link:focus {
   color: var(--main-clr);
 }
+/* .link-active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--main-clr);
+} */
 .icon {
   fill: currentColor;
 }
@@ -159,6 +170,9 @@ img {
 .main-nav-item:not(:last-child),
 .contact-nav-item:not(:last-child) {
   margin-right: 50px;
+}
+.main-nav-item {
+  position: relative;
 }
 .header-nav,
 .header-container {
@@ -427,6 +441,9 @@ img {
   padding: 6px 22px;
 
   line-height: 1.6;
+}
+.link.portfolio-link {
+  display: block;
 }
 .filter-btn > .button:hover,
 .filter-btn > .button:focus {
